@@ -1,9 +1,67 @@
 /* font-family: 'Roboto Mono', monospace; */
 /* font-family: 'Caveat', cursive; */
 
-#header-section{
+/* ------------------------General styles----------------------------- */
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+/* ------------------------General styles----------------------------- */
+
+/* ----------------------------Header section styles-------------------------- */
+#nav-section{
+    background-color: grey;
+}
+nav div{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#nav-brand{
+    margin:0.6em 0 0.6em 0.6em;
+    height: 70px;
+}
+nav div ul{
+    display: flex;
+    justify-content: center;
+}
+nav div ul li{
+    padding: 20px;
+    
+}
+nav div ul li a{
+    color: cyan;
+    font-size: 1.4em;
+}
+nav div ul li a:hover{
+    color: white;
+}
+nav div ul li:hover{
+    background-color: crimson;
+    border-radius: 10px;
+    
+}
+#intro-section{
     background-image: url("../assets/backgrounds/h_img.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+#intro-section div:nth-child(2){
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+#intro-section div p{
+    font-family: 'Caveat', cursive;
+    font-weight: 300;
+    font-size: 1.6em;
+}
+/* -----------------------End Header section styles-------------------------- */
 
