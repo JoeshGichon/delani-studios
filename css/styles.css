@@ -9,6 +9,9 @@ a{
 li{
     list-style: none;
 }
+body{
+    scroll-behavior: smooth;
+}
 /* ------------------------General styles----------------------------- */
 
 /* ----------------------------Header section styles-------------------------- */
