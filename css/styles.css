@@ -174,3 +174,24 @@ nav div ul li:hover{
 
 /* ------------------End Potfolio styles section------------------------------ */
 
+/* -------------------Contact us styles---------------------------------- */
+#contact-section{
+    background-image: url(../assets/backgrounds/c_image.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 70vh;
+}
+#contact-section h2{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+
+#contact-section form{
+    padding: 4em;
+}
+/* -------------------End Contact us styles---------------------------------- */
+
