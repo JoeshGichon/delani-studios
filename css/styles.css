@@ -68,7 +68,7 @@ nav div ul li:hover{
 #intro-section div:nth-child(2) h2{
     font-family: 'Roboto Mono', monospace;
     font-weight: 500;
-    font-size: 2em;
+    font-size: 1.8em;
 }
 #intro-section div p{
     font-family: 'Caveat', cursive;
@@ -115,7 +115,7 @@ nav div ul li:hover{
     color: white;
     font-family: 'Roboto Mono', monospace;
     font-weight: 700;
-    font-size: 2.4em;
+    font-size: 1.8em;
     text-transform: uppercase;
 }
 #services-section div p{
@@ -135,7 +135,7 @@ nav div ul li:hover{
     text-transform: uppercase;
     font-family: 'Roboto Mono', monospace;
     font-weight: 700;
-    font-size: 2.2em;
+    font-size: 1.8em;
 }
 #do-section>div{
     display: flex;
@@ -154,4 +154,23 @@ nav div ul li:hover{
 }
 
 /* -------------------End What we do styles----------------------------------- */
+
+/* ------------------Potfolio styles section-------------------------------- */
+#portfolio-section{
+    margin-top: 3em;
+    padding: 0 100px 0 100px;
+}
+#portfolio-section h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+#portfolio-section img{
+    height: 200px;
+    margin-bottom: 20px;
+}
+
+/* ------------------End Potfolio styles section------------------------------ */
 
