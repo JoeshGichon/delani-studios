@@ -1,5 +1,6 @@
 /* font-family: 'Roboto Mono', monospace; */
 /* font-family: 'Caveat', cursive; */
+/* font-family: 'Roboto', sans-serif; */
 
 /* ------------------------General styles----------------------------- */
 a{
@@ -75,4 +76,24 @@ nav div ul li:hover{
     font-size: 1.6em;
 }
 /* -----------------------End Header section styles-------------------------- */
+
+/* -------------------------About us styles-------------------------------- */
+#about-section{
+    text-align: center;
+    color: rgb(7, 3, 3);
+    margin-top: 20px;
+    padding: 10px;
+}
+#about-section h2{
+    font-family: 'Roboto Mono', monospace; 
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+#about-section p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+/* -------------------------End About us styles------------------------------ */
 
