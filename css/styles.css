@@ -195,3 +195,20 @@ nav div ul li:hover{
 }
 /* -------------------End Contact us styles---------------------------------- */
 
+/* ---------------footer styles section---------------------------------- */
+#social{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#copyright{
+    text-align: center;
+    margin-top: 10px;
+    text-transform: uppercase;
+}
+#copyright h4,#copyright h5{
+    font-size: 0.8em;
+    font-weight: 700;
+}
+/* ---------------End footer styles section------------------------------- */
+
