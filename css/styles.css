@@ -97,3 +97,32 @@ nav div ul li:hover{
 }
 /* -------------------------End About us styles------------------------------ */
 
+/* --------------------------services styles--------------------------------- */
+#services-section{
+    height: 30vh;
+    background-image: url(../assets/backgrounds/s_image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#services-section div{
+    text-align: center;
+}
+#services-section div h2{
+    text-align: center;
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    font-size: 2.4em;
+    text-transform: uppercase;
+}
+#services-section div p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+/* --------------------------End services styles--------------------------------- */
+
