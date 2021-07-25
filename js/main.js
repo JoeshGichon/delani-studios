@@ -17,6 +17,19 @@ $(document).ready(function(){
 
 // frontend logic/UI/UX
 
+$(document).ready(function(){
+    $("#design-icon").click(function(){
+        $("#design-descr").toggle().css("text-aling","center");
+        $("#what-we-do").css("font-weight","900","text-aling","center");
+    });
+    $("#development-icon").click(function(){
+        $("#dev-descr").toggle().css("text-aling","center");
+    });
+    $("#product-icon").click(function(){
+        $("#product-descr").toggle().css("text-aling","center");
+    });
+});
+
 
 
 

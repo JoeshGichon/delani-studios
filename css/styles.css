@@ -137,7 +137,7 @@ nav div ul li:hover{
     text-align: center;
     text-transform: uppercase;
     font-family: 'Roboto Mono', monospace;
-    font-weight: 700;
+    font-weight: 400;
     font-size: 1.8em;
 }
 #do-section>div{
@@ -214,4 +214,8 @@ nav div ul li:hover{
     font-weight: 700;
 }
 /* ---------------End footer styles section------------------------------- */
-
+/* ----------------------js---------------------- */
+#do-section h3{
+    display: none;
+}
+/* ----------------------End js---------------------- */
