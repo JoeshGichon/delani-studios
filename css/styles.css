@@ -78,6 +78,10 @@ nav div ul li:hover{
     font-weight: 300;
     font-size: 1.6em;
 }
+#mouse-click-icon{
+    position: absolute;
+    bottom: 0;
+}
 /* -----------------------End Header section styles-------------------------- */
 
 /* -------------------------About us styles-------------------------------- */
