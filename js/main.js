@@ -19,14 +19,35 @@ $(document).ready(function(){
 
 $(document).ready(function(){
     $("#design-icon").click(function(){
-        $("#design-descr").toggle().css("text-aling","center");
-        $("#what-we-do").css("font-weight","900","text-aling","center");
+        $("#design-descr").toggle();
+        $("#design-icon").hide();
+
+        $("#design-descr").click(function(){
+            $("#design-icon").show();
+            $("#design-descr").hide();
+        });
     });
+    
+    
+
     $("#development-icon").click(function(){
-        $("#dev-descr").toggle().css("text-aling","center");
+        $("#dev-descr").toggle();
+        $("#development-icon").hide();
+
+        $("#dev-descr").click(function(){
+            $("#development-icon").show();
+            $("#dev-descr").hide();
+        });
     });
+
     $("#product-icon").click(function(){
-        $("#product-descr").toggle().css("text-aling","center");
+        $("#product-descr").toggle();
+        $("#product-icon").hide();
+
+        $("#product-descr").click(function(){
+            $("#product-icon").show();
+            $("#product-descr").hide();
+        });
     });
 });
 
