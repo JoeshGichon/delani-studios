@@ -17,6 +17,7 @@ $(document).ready(function(){
 
 // frontend logic/UI/UX
 
+// toggle effect on the what we do section
 $(document).ready(function(){
     $("#design-icon").click(function(){
         $("#design-descr").toggle();
@@ -50,6 +51,17 @@ $(document).ready(function(){
         });
     });
 });
+
+// hover effect on the portfilio section
+
+$("document").ready(function(){
+    $(".portfolio-items>div").hover(function(){
+        $(".portfolio-items>div").addClass("portFolio-hover");
+        $(".portfolio-items>div>img").removeClass("portFolio-hover");
+    });
+    
+});
+
 
 
 

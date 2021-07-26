@@ -141,7 +141,7 @@ nav div ul li:hover{
     text-align: center;
     text-transform: uppercase;
     font-family: 'Roboto Mono', monospace;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 1.8em;
 }
 #do-section>div{
@@ -224,5 +224,16 @@ nav div ul li:hover{
 /* ----------------------js---------------------- */
 #do-section p{
     display: none;
+}
+
+.portFolio-hover{
+    color: white;
+    opacity: 0.9;
+    cursor: pointer
+}
+.portfolio-items>div>img:hover{
+    color: white;
+    opacity: 0.5;
+    cursor: pointer
 }
 /* ----------------------End js---------------------- */
