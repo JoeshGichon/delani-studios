@@ -233,7 +233,7 @@ nav div ul li:hover{
 }
 .portfolio-items>div>img:hover{
     color: white;
-    opacity: 0.5;
+    opacity: 0.4;
     cursor: pointer
 }
 /* ----------------------End js---------------------- */

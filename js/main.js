@@ -55,8 +55,9 @@ $(document).ready(function(){
 // hover effect on the portfilio section
 
 $("document").ready(function(){
-    $(".portfolio-items>div").hover(function(){
-        $(".portfolio-items>div").addClass("portFolio-hover");
+    $(".portfolio-items>div>img").hover(function(){
+        $(".portfolio-items>div>img").addClass("portFolio-hover");
+    },function(){
         $(".portfolio-items>div>img").removeClass("portFolio-hover");
     });
     
