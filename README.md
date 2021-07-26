@@ -2,8 +2,16 @@
 #### This site is a one page website that mainly forcus on the frontEnd as well as user logic , Monday,26, July, 2021
 #### By **John Gicho**
 ## Description
-The above named website is a web page site that encumpuses both the front-end or the user interface as well as the user logic.
-## Setup/Installation Requirements
+The above named website is a single page website that is partly static as well as partly dynamic.
+HTML has extensively been used to statically lay the foundation of the page.HTML elements that are the backbone of the website include header elements, images, paragraphs as well as icons.HTML follows the normal document flow of the HTML elements as they are rendered as they appear on the code.
+
+CSS rules style the site to make it eye catchy and more appealing. The rules alter the normal document flow as elements are positioned relatively to parents elements or floated either left or right.
+
+Twiter bootsrap which is a frontend framework that includes pre backed CSS rules is also included in the project. The rules are invocked when appropriate classes are applied on the HTML code.
+
+Vanilla javascript is also used in the project to store variables entered by the user as well store elements which are later used in the logic. Alerts as well as pop up messages are invocked when user interact with elements in the page. Jquery javascript library is used to enhance user experience of clicking certain items and then displays hidden html elements on click.
+
+# Setup/Installation Requirements
 * HTML
 * CSS
 * Bootsrap v5
