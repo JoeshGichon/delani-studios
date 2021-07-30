@@ -21,6 +21,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap" rel="stylesheet">
     <!-- End google fonts applied -->
 
+    <!-- Begin Mailchimp Signup Form -->
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+    <!-- --------------End----------------------- -->
+
     <!-- styles -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/styles.css" type="text/css">
@@ -147,24 +151,42 @@
             </section>
         </section>
         <section id="contact-section" class="container">
-            <form id="collect" action="./redirect.html" method="POST">
-                <h2>Contact Us</h2>
-                <div class="row">
-                    <div class="mb-3 col-lg-6">
-                        <input type="text" class="form-control" id="name" placeholder="Name..." required>
+            <!----------------------------Forms------------------------------ -->
+            <div id="mc_embed_signup">
+                <form action="https://moringaschool.us6.list-manage.com/subscribe/post?u=7383c0190f4dc57bcd8ad43b7&amp;id=48fb093a79" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" id="collect" target="_blank" novalidate>
+    
+                    <div id="mc_embed_signup_scroll">
+                        <div class="row">
+                            <div class="mb-3 col-lg-6 col-md-6">
+                                <input type="text" value="" name="FNAME" class="form-control" id="mce-FNAME" placeholder="First Name">
+                            </div>
+        
+                            <div class=" mb-3 col-lg-6 col-md-6">
+                                <input type="text" value="" name="LNAME" class="form-control" id="mce-LNAME" placeholder="Last Name">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="mb-3">
+                                <input type="email" value="" name="EMAIL" class="required email form-control" id="mce-EMAIL" placeholder="abc@gmail.com">
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" id="comments" rows="4" placeholder="Your message here..." required></textarea>
+                        </div>
+
+                        <div id="mce-responses" class="clear">
+                            <div class="response" id="mce-error-response" style="display:none">
+                            </div>
+                            <div class="response" id="mce-success-response" style="display:none">
+                            </div>
+                        </div>
+    
+                        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary">
+                        </div>
                     </div>
-                    <div class="mb-3 col-lg-6">
-                        <input type="email" class="form-control" id="email" placeholder="Email..." required>
-                    </div>
-                </div>
-                <div class="mb-3">
-                    <textarea class="form-control" id="comments" rows="7" placeholder="Your message here..." required></textarea>
-                </div>
-                <div class="col-12">
-                    <button id="submit"
-                    type="submit" class="btn btn-primary">submit</button>
-                </div>
-            </form>
+                </form>
+            </div>
+            <!-- -------------------------End forms--------------------------- -->
         </section>
     </main>
     <!-- --------------------------End Main section-------------------------- -->
@@ -190,6 +212,7 @@
     </footer>
     <!-- -------------------End Footer section---------------------------- -->
 
+    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
     <script src="./js/main.js"></script>
 </body>
 </html>
